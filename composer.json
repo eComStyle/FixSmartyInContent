@@ -1,0 +1,20 @@
+{
+    "name": "ecs/fixsmartyincontent",
+    "description": "ECS FixSmartyInContent Module",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://ecomstyle.de/",
+    "license": [
+        "GPL-3.0-only"
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "ecs/FixSmartyInContent"
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Ecs\\FixSmartyInContent\\": "../../../source/modules/ecs/FixSmartyInContent"
+        }
+    }
+}
