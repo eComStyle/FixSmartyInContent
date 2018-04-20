@@ -22,12 +22,13 @@ $aModule = array(
     'id'           => 'ecs_fixsmartyincontent',
     'title'        => '<strong style="color:#04B431;">e</strong><strong>ComStyle.de</strong>:  <i>FixSmartyInContent</i>',
     'description'  => 'Repariert vom Wysiwyg-Editor zerstörte >',
-    'version'      => '1.0.0',
+    'version'      => '1.0.1',
     'thumbnail'    => 'ecs.png',
     'author'       => '<strong style="font-size: 17px;color:#04B431;">e</strong><strong style="font-size: 16px;">ComStyle.de</strong>',
     'email'        => 'info@ecomstyle.de',
     'url'          => 'https://ecomstyle.de',
     'extend'       =>  array(
-        \OxidEsales\Eshop\Application\Controller\Admin\ContentMain::class       => Ecs\FixSmartyInContent\Controller\Admin\ContentMain::class,
+        \OxidEsales\Eshop\Application\Controller\Admin\ContentMain::class      => Ecs\FixSmartyInContent\Controller\Admin\ContentMain::class,
+        \OxidEsales\Eshop\Application\Controller\Admin\NewsletterMain::class   => Ecs\FixSmartyInContent\Controller\Admin\NewsletterMain::class,
     )
 );

@@ -6,8 +6,9 @@ OXID eShop 6
 
 
 ### Features
-Verwandelt beim Speichern von CMS-Inhalten `-&gt;` in `->` .
-Soll angeblich bei der Verwendung von Smarty-Tags in CMS-Inhalten (auch Emails) helfen.  
+Verwandelt beim Speichern von CMS-Inhalten oder html-Newslettern  `-&gt;` in `->`.  
+Soll angeblich bei der Verwendung von Smarty-Tags helfen.
+
 
 
 ### Installation
