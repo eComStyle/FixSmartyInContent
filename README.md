@@ -6,13 +6,13 @@ OXID eShop 6
 
 
 ### Features
-Verwandelt beim Speichern von CMS-Inhalten oder html-Newslettern  `-&gt;` in `->`.  
+Verwandelt beim Speichern von CMS-Inhalten oder html-Newslettern  `-&gt;` in `->`.
 Soll angeblich bei der Verwendung von Smarty-Tags helfen.
 
 
 
 ### Installation
-`composer require ecs/fixsmartyincontent`
+`composer require ecs/fixsmartyincontent`  
 
 
 ### License
