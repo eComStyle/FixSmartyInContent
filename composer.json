@@ -4,9 +4,16 @@
     "type": "oxideshop-module",
     "keywords": ["oxid", "modules", "eShop"],
     "homepage": "https://ecomstyle.de/",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": [
         "GPL-3.0-only"
+    ],
+    "authors": [
+        {
+            "name":  "Josef A. Puckl | eComStyle.de",
+            "email": "info@ecomstyle.de",
+            "role":  "Developer"
+        }
     ],
     "extra": {
         "oxideshop": {
